@@ -12,4 +12,4 @@ const newMessage = () =>
 
 socket.on('msgToClient',({data}) => {
 	console.log(data);
-})
+}) 
